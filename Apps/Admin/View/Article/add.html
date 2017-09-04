@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理</title>
+    <base href="__PUBLIC__/Admin/">
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <script type="text/javascript" src="js/libs/modernizr.min.js"></script>
+
+    <!-- 百度编辑器 -->
+    <script type="text/javascript" charset="utf-8" src="__ROOT__/Public/Ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__ROOT__/Public/Ueditor/ueditor.all.min.js"> </script>    
+    <script type="text/javascript" charset="utf-8" src="__ROOT__/Public/Ueditor/lang/zh-cn/zh-cn.js"></script>
+</head>
+<body>
+<!-- 顶部导航 -->
+<include file="Public/top" />
+
+<div class="container clearfix">
+    <!-- 左侧菜单栏 -->
+    <include file="Public/menu" />
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="{:U('Index/index')}">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="{:U('Article/index')}">博文管理</a><span class="crumb-step">&gt;</span><span>新增博文</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="{:U('Article/add')}" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody><tr>
+                            <th width="120"><i class="require-red">*</i>分类：</th>
+                            <td>
+                                <select name="cat_id" id="catid" class="required">
+                                    <foreach name="catList" item="val">
+                                    <option value="{$val.cat_id}">{$val.cat_name}</option>
+                                    </foreach>
+                                </select>
+                            </td>
+                        </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>标题：</th>
+                                <td>
+                                    <input class="common-text required" id="title" name="title" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>作者：</th>
+                                <td><input class="common-text" name="author" size="50" value="admin" type="text"></td>
+                            </tr>
+                            <tr>
+                                <th>是否推荐：</th>
+                                <td>
+                                    <input class="common-text" name="is_top" size="50" value="1" type="radio">是
+                                    <input class="common-text" name="is_top" size="50" value="0" type="radio">否
+                                </td>
+                            </tr>                            
+      <!--                       <tr>
+                                <th><i class="require-red">*</i>缩略图：</th>
+                                <td><input name="smallimg" id="" type="file"><input type="submit" onclick="submitForm('/jscss/admin/design/upload')" value="上传图片"/></td>
+                            </tr> -->
+
+                            <tr>
+                                <th>选择标签：</th>
+                                <td><input type="checkbox"> PHP  <input type="checkbox"> mysql  <input type="checkbox"> Apache <input type="checkbox"> Linux
+								<input type="checkbox"> redis  <input type="checkbox"> nosql <input type="checkbox"> nginx模块
+								</td>
+                            </tr>
+
+                            <tr>
+                                <th>简短描述：</th>
+                                <td><textarea name="short_desc" class="common-textarea"  cols="15" style="width: 68%;" rows="5"></textarea></td>
+                            </tr>
+                            <tr>
+                                <th>内容：</th>
+                                <td><textarea name="content" class="common-textarea" id="content" cols="30" style="width: 98%;" rows="10"></textarea></td>
+                            </tr>                            
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!--/main-->
+</div>
+</body>
+<script>
+    //实例化编辑器
+    var ue = UE.getEditor('content');
+</script>
+</html>

@@ -1,0 +1,58 @@
+[ 2016-07-26T16:32:42+08:00 ] 192.168.1.249 /index.php/Admin/Article/delete.html?art_id=161
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011291s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0081s ]
+SQL: DELETE FROM `blog_article` WHERE `art_id` = 161 [ RunTime:0.0086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001438s ]
+
+[ 2016-07-26T16:35:34+08:00 ] 192.168.1.249 /index.php/Admin/Article/delete.html?art_id=158
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003346s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0063s ]
+SQL: DELETE FROM `blog_article` WHERE `art_id` = 158 [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001401s ]
+
+[ 2016-07-26T16:36:01+08:00 ] 192.168.1.249 /index.php/Admin/Article/delete.html?art_id=168
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0096s ]
+SQL: DELETE FROM `blog_article` WHERE `art_id` = 168 [ RunTime:0.0109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001992s ]
+
+[ 2016-07-26T16:39:27+08:00 ] 192.168.1.249 /index.php/Admin/Article/delete.html?art_id=166
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0040s ]
+SQL: DELETE FROM `blog_article` WHERE `art_id` = 166 [ RunTime:0.0036s ]
+
+[ 2016-07-26T16:41:22+08:00 ] 192.168.1.249 /index.php/Admin/Article/delete.html?art_id=167
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0082s ]
+SQL: DELETE FROM `blog_article` WHERE `art_id` = 167 [ RunTime:0.0027s ]
+
+[ 2016-07-26T16:48:33+08:00 ] 192.168.1.249 /index.php/Admin/Article/delete.html?art_id=163
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0217s ]
+SQL: DELETE FROM `blog_article` WHERE `art_id` = 163 [ RunTime:0.0026s ]
+
+[ 2016-07-26T18:41:04+08:00 ] 192.168.1.249 /index.php/Admin/Article/delete.html?art_id=165
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001725s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0059s ]
+SQL: DELETE FROM `blog_article` WHERE `art_id` = 165 [ RunTime:0.0019s ]
+

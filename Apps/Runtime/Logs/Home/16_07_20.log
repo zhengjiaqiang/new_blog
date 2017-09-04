@@ -1,0 +1,12 @@
+[ 2016-07-20T11:17:34+08:00 ] 127.0.0.1 /
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tp_blog_com.blog_cat' doesn't exist
+
+[ 2016-07-20T11:18:26+08:00 ] 127.0.0.1 /
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tp_blog_com.blog_cat' doesn't exist
+
+[ 2016-07-20T11:18:26+08:00 ] 127.0.0.1 /
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tp_blog_com.blog_cat' doesn't exist
+
+[ 2016-07-20T11:18:27+08:00 ] 127.0.0.1 /
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tp_blog_com.blog_cat' doesn't exist
+

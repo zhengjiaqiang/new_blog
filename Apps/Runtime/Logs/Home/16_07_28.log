@@ -1,0 +1,823 @@
+[ 2016-07-28T15:51:13+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002454s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 36 行.
+ERR: 非法操作:clickNum
+
+[ 2016-07-28T15:51:21+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=170
+ERR: 非法操作:clickNum
+
+[ 2016-07-28T15:54:44+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0072s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='170' ) [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002244s ]
+
+[ 2016-07-28T15:56:43+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0213s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='170' ) [ RunTime:0.0038s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='170' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001629s ]
+
+[ 2016-07-28T16:01:21+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0284s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='170' ) [ RunTime:0.0018s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='170' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-28T16:02:38+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0057s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='170' ) [ RunTime:0.0014s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='170' ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-07-28T16:02:40+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0073s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='170' ) [ RunTime:0.0018s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='170' ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-07-28T16:03:25+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004190s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0070s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='170' ) [ RunTime:0.0026s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='170' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-28T16:03:30+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0056s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='170' ) [ RunTime:0.0013s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='170' ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-07-28T16:03:31+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001683s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0089s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='170' ) [ RunTime:0.0016s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='170' ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-07-28T16:03:32+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002264s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0083s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='170' ) [ RunTime:0.0024s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='170' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-28T16:03:32+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001817s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0083s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='170' ) [ RunTime:0.0030s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='170' ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-07-28T16:04:05+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0089s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='170' ) [ RunTime:0.0015s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='170' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-07-28T16:04:06+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0088s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='170' ) [ RunTime:0.0078s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='170' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-07-28T16:04:07+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003164s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0073s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='170' ) [ RunTime:0.0015s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='170' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-28T16:04:07+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0073s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='170' ) [ RunTime:0.0013s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='170' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-07-28T16:05:53+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0128s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='170' ) [ RunTime:0.0015s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='170' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-28T16:06:05+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0118s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='150' ) [ RunTime:0.0071s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='150' ) LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2016-07-28T16:06:08+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0090s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='150' ) [ RunTime:0.0019s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='150' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-07-28T16:06:09+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002332s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0075s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='150' ) [ RunTime:0.0021s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='150' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-07-28T16:06:09+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0074s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='150' ) [ RunTime:0.0017s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='150' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-07-28T16:06:10+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0084s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='150' ) [ RunTime:0.0077s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='150' ) LIMIT 1   [ RunTime:0.0023s ]
+
+[ 2016-07-28T16:18:24+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002171s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0077s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='150' ) [ RunTime:0.0021s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='150' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-07-28T16:18:25+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0070s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='150' ) [ RunTime:0.0022s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='150' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-07-28T16:18:26+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0101s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='150' ) [ RunTime:0.0026s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='150' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-07-28T16:19:17+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0195s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='150' ) [ RunTime:0.0050s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='150' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-07-28T16:25:46+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002271s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0108s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='150' ) [ RunTime:0.0039s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='150' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-07-28T16:27:55+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0074s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='150' ) [ RunTime:0.0164s ]
+SQL: INSERT INTO `blog_click_log` (`ip`,`art_id`) VALUES ('0.0.0.0','150') [ RunTime:0.0034s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='150' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-07-28T16:28:15+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0228s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-07-28T16:28:29+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002686s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-28T16:28:30+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-07-28T16:33:13+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-07-28T16:33:23+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001787s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0046s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='150' ) [ RunTime:0.0016s ]
+SQL: INSERT INTO `blog_click_log` (`ip`,`art_id`) VALUES ('0.0.0.0','150') [ RunTime:0.0014s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='150' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-28T16:33:26+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-07-28T16:33:28+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001966s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0035s ]
+
+[ 2016-07-28T16:33:31+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001439s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-07-28T16:33:56+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0040s ]
+SQL: UPDATE `blog_article` SET `click_num`=click_num+1 WHERE ( art_id='150' ) [ RunTime:0.0016s ]
+SQL: INSERT INTO `blog_click_log` (`ip`,`art_id`) VALUES ('0.0.0.0','150') [ RunTime:0.0014s ]
+SQL: SELECT `click_num` FROM `blog_article` WHERE ( art_id='150' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-07-28T16:34:01+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001942s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-28T16:34:02+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002180s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-28T16:34:02+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-07-28T16:34:02+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001795s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0297s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-07-28T16:34:02+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-28T16:34:02+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-07-28T16:34:03+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-28T16:34:03+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-07-28T16:34:03+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001723s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-07-28T16:34:03+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001491s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-07-28T16:34:03+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-07-28T16:34:03+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-07-28T16:34:04+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-28T16:34:04+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-28T16:34:04+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-28T16:34:05+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-07-28T16:34:05+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-28T16:34:05+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-07-28T16:34:06+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-07-28T16:34:06+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-07-28T16:34:06+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-07-28T16:34:08+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-28T16:34:08+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-07-28T16:34:15+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-07-28T16:34:25+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-07-28T16:34:27+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002708s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-07-28T16:34:31+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003078s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-28T16:36:25+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-28T16:36:26+08:00 ] ::1 /new_blog/index.php/Home/Article/clickNum.html?art_id=150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `blog_click_log` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `blog_click_log` WHERE `ip` = '0.0.0.0' AND `art_id` = 150 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-28T19:16:57+08:00 ] ::1 /new_blog/index.php/Home/Article/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001813s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 91 行.
+ERR: 非法操作:comment
+
+[ 2016-07-28T19:19:03+08:00 ] ::1 /new_blog/index.php/Home/Article/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0086s ]
+SQL: INSERT INTO `blog_comment` (`content`,`art_id`,`add_time`) VALUES ('','150','1469704743') [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001299s ]
+
+[ 2016-07-28T19:20:50+08:00 ] ::1 /new_blog/index.php/Home/Article/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002222s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0355s ]
+SQL: INSERT INTO `blog_comment` (`content`,`art_id`,`add_time`) VALUES ('测试内容','150','1469704850') [ RunTime:0.0032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001380s ]
+
+[ 2016-07-28T19:21:40+08:00 ] ::1 /new_blog/index.php/Home/Article/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0070s ]
+SQL: INSERT INTO `blog_comment` (`content`,`art_id`,`add_time`) VALUES ('测试内容','150','1469704900') [ RunTime:0.0039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001651s ]
+
+[ 2016-07-28T19:21:53+08:00 ] ::1 /new_blog/index.php/Home/Article/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0103s ]
+SQL: INSERT INTO `blog_comment` (`comm_title`,`content`,`art_id`,`add_time`) VALUES ('测试标题','测试内容','150','1469704913') [ RunTime:0.0153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002314s ]
+
+[ 2016-07-28T19:24:24+08:00 ] ::1 /new_blog/index.php/Home/Article/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0070s ]
+SQL: INSERT INTO `blog_comment` (`comm_title`,`content`,`art_id`,`add_time`) VALUES ('测试标题','测试内容','150','1469705064') [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2016-07-28T19:26:44+08:00 ] ::1 /new_blog/index.php/Home/Article/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002881s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0183s ]
+SQL: INSERT INTO `blog_comment` (`comm_title`,`content`,`art_id`,`add_time`) VALUES ('测试','测试','150','1469705204') [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2016-07-28T19:26:53+08:00 ] ::1 /new_blog/index.php/Home/Article/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0090s ]
+SQL: INSERT INTO `blog_comment` (`comm_title`,`content`,`art_id`,`add_time`) VALUES ('测试','测试','150','1469705213') [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000488s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2016-07-28T19:29:22+08:00 ] ::1 /new_blog/index.php/Home/Article/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 117 行.
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0091s ]
+SQL: INSERT INTO `blog_comment` (`comm_title`,`content`,`art_id`,`add_time`) VALUES ('测试','测试','150','1469705362') [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001452s ]
+
+[ 2016-07-28T19:29:29+08:00 ] ::1 /new_blog/index.php/Home/Article/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001647s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 117 行.
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0068s ]
+SQL: INSERT INTO `blog_comment` (`comm_title`,`content`,`art_id`,`add_time`) VALUES ('测试222','测试22222','150','1469705369') [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001099s ]
+
+[ 2016-07-28T19:30:31+08:00 ] ::1 /new_blog/index.php/Home/Article/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 117 行.
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0084s ]
+SQL: INSERT INTO `blog_comment` (`comm_title`,`content`,`art_id`,`add_time`) VALUES ('美丽姑娘','美丽姑娘美丽姑娘','150','1469705431') [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001224s ]
+
+[ 2016-07-28T19:31:46+08:00 ] ::1 /new_blog/index.php/Home/Article/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003276s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 117 行.
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0058s ]
+SQL: INSERT INTO `blog_comment` (`comm_title`,`content`,`art_id`,`add_time`) VALUES ('美丽的姑娘','你是我见过最美丽的姑娘','150','1469705506') [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002934s ]
+
+[ 2016-07-28T19:50:40+08:00 ] ::1 /new_blog/index.php/Home/Article/reply.html?reply_text=%E5%8F%91%E7%94%9F%E5%9C%B0%E6%96%B9%E5%B0%B1%E6%AD%BB%E5%AE%9A%E4%BA%86&comm_id=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `blog_reply` [ RunTime:0.0087s ]
+SQL: INSERT INTO `blog_reply` (`reply_text`,`comm_id`,`reply_time`) VALUES ('发生地方就死定了','18','1469706640') [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2016-07-28T19:54:15+08:00 ] ::1 /new_blog/index.php/Home/Article/reply.html?reply_text=%E5%BD%93%E7%84%B6%E5%95%A6&comm_id=19
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `blog_reply` [ RunTime:0.0064s ]
+SQL: INSERT INTO `blog_reply` (`reply_text`,`comm_id`,`reply_time`) VALUES ('当然啦','19','1469706855') [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2016-07-28T19:54:20+08:00 ] ::1 /new_blog/index.php/Home/Article/reply.html?reply_text=%E5%BD%93%E7%84%B6%E5%95%A62222&comm_id=19
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `blog_reply` [ RunTime:0.0072s ]
+SQL: INSERT INTO `blog_reply` (`reply_text`,`comm_id`,`reply_time`) VALUES ('当然啦2222','19','1469706860') [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003748s ]
+
+[ 2016-07-28T19:54:47+08:00 ] ::1 /new_blog/index.php/Home/Article/reply.html?reply_text=%E5%A5%BD%E7%88%B1%E5%A5%BD&comm_id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `blog_reply` [ RunTime:0.0067s ]
+SQL: INSERT INTO `blog_reply` (`reply_text`,`comm_id`,`reply_time`) VALUES ('好爱好','13','1469706887') [ RunTime:0.0032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2016-07-28T19:54:51+08:00 ] ::1 /new_blog/index.php/Home/Article/reply.html?reply_text=%E5%A5%BD%E7%88%B1%E5%A5%BD55555&comm_id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `blog_reply` [ RunTime:0.0064s ]
+SQL: INSERT INTO `blog_reply` (`reply_text`,`comm_id`,`reply_time`) VALUES ('好爱好55555','13','1469706891') [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2016-07-28T20:07:57+08:00 ] ::1 /new_blog/index.php/Home/Article/reply.html?reply_text=%E5%8F%8D%E5%80%92%E6%98%AF%E5%8F%8D%E5%80%92%E6%98%AF&comm_id=19
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002505s ]
+NOTIC: [2048] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\new_blog\Apps\Home\Controller\ArticleController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `blog_reply` [ RunTime:0.0060s ]
+SQL: INSERT INTO `blog_reply` (`reply_text`,`comm_id`,`reply_time`) VALUES ('反倒是反倒是','19','1469707677') [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002468s ]
+

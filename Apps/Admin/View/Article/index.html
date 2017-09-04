@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理</title>
+    <base href="__PUBLIC__/Admin/">
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <script type="text/javascript" src="js/libs/modernizr.min.js"></script>
+</head>
+<body>
+<!-- 顶部导航 -->
+<include file="Public/top" />
+<div class="container clearfix">
+    <!-- 左侧菜单栏 -->
+    <include file="Public/menu" />
+    
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="/jscss/admin">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">作品管理</span></div>
+        </div>
+        <div class="search-wrap">
+            <div class="search-content">
+                <form action="{:U('Article/index')}" method="get">
+                    <table class="search-tab">
+                        <tr>
+                            <th width="120">选择分类:</th>
+                            <td>
+                                <select name="cat_id" id="">
+                                    <option value="">全部</option>
+                                    <foreach name="catList" item="val">
+                                    <option value="{$val.cat_id}" <if condition="$val['cat_id'] eq $cat_id">selected</if>>{$val.cat_name}</option>
+                                    </foreach>
+                                </select>
+
+                            </td>
+                            <th width="70">标题:</th>
+                            <td><input class="common-text" placeholder="关键字" name="title" value="{$title}" id="" type="text"></td>
+                            <!--
+							<th width="70">标签:</th>
+                            <td>
+                                <select name="search-sort" id="">
+                                    <option value="">全部</option>
+                                    <option value="19">php</option><option value="20">mysql</option>
+                                </select>
+                            </td>
+                            -->
+                            <td><input class="btn btn-primary btn2" value="查询" type="submit"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="result-wrap">
+            <form name="myform" id="myform" method="post">
+                <div class="result-title">
+                    <div class="result-list">
+                        <a href="{:U('Article/add')}"><i class="icon-font"></i>新增博文</a>
+                        <a id="batchDel" href="javascript:void(0)"><i class="icon-font"></i>批量删除</a>
+                        <a id="updateOrd" href="javascript:void(0)"><i class="icon-font"></i>更新排序</a>
+                    </div>
+                </div>
+                <div class="result-content">
+                    <table class="result-tab" width="100%">
+                        <tr>
+                            <th class="tc" width="5%"><input class="allChoose" name="" type="checkbox"> ID</th>
+                            <th>排序</th>
+                            <th>标题</th>
+                            <th>分类</th>
+                            <!-- <th>审核状态</th> -->
+                            <th>阅读量</th>
+                            <th>点赞量</th>
+                            <th>发布人</th>
+                            <th>发布时间</th>
+                            <th>评论</th>
+                            <th>操作</th>
+                        </tr>
+                        <foreach name="artList" item="value">
+                        <tr>
+                            <td class="tc"><input name="id[]" value="{$value.art_id}" type="checkbox"> {$value.art_id}</td>
+                            <td>
+                                <input name="ids[]" value="{$value.sort}" type="hidden">
+                                <input class="common-input sort-input" name="ord[]" value="{$value.sort}" type="text">
+                            </td>
+                            <td title="{$value.title}"><a target="_blank" href="#" title="{$value.title}">{$value.title}</a>
+                            </td>
+                            <td>{$value.cat_name}</td>
+                            <!-- <td>0</td> -->
+                            <td>{$value.read_num}</td>
+                            <td>{$value.click_num}</td>
+                            <td>{$value.author}</td>
+                            <td>{:date('Y/m/d H:i:s',$value['add_time'])}</td>
+                            <td></td>
+                            <td>
+                                <a class="link-update" href="#">修改</a>
+                                <a class="link-recover" art_id="{$value.art_id}" href="javascript:void(0);">删除</a>
+                                <!--
+                                <a class="link-del" art_id="{$value.art_id}" href="javascript:void(0);">删除</a>
+                                -->
+                            </td>
+                        </tr>
+                        </foreach>
+                    </table>
+                    <div class="list-page"> 
+                    {$show}
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--/main-->
+</div>
+</body>
+<script src="js/jquery.1.12.min.js"></script>
+
+<script>
+    // 回收站
+    $(".link-recover").click(function(){
+        var bool = window.confirm("您确认要移到回收站吗？");
+        if(!bool)
+        {
+            return false;
+        }
+        var art_id = $(this).attr("art_id");
+        var url = "{:U('Article/recover')}";
+        var _this = $(this);
+        $.get(url,{'art_id':art_id},function(result){
+            // console.log(result);
+            if(result.status)
+            {
+               _this.parents("tr").remove();
+            }
+            else
+            {
+                alert(result.err_msg);
+            }
+        },'json')
+
+    })
+
+    // 删除
+    $(".link-del").click(function(){
+        var art_id = $(this).attr("art_id");
+        var url = "{:U('Article/delete')}";
+        var _this = $(this);
+        $.get(url,{'art_id':art_id},function(result){
+            // console.log(result);
+            if(result.status)
+            {
+               _this.parents("tr").remove();
+            }
+            else
+            {
+                alert(result.err_msg);
+            }
+        },'json')
+
+        
+    })
+</script>
+</html>

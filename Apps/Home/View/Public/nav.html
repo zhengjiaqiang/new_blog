@@ -1,0 +1,9 @@
+  <nav id="nav">
+    <ul>
+      <li><a href="/" >网站首页</a></li>
+      <foreach name="catList" item="val">
+      <li><a href="{$val.url}" target="_blank" title="{$val.cat_name}">{$val.cat_name}</a></li>
+      </foreach>
+    </ul>
+    <script src="js/silder.js"></script><!--获取当前页导航 高亮显示标题--> 
+  </nav>

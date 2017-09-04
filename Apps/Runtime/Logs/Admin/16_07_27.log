@@ -1,0 +1,90 @@
+[ 2016-07-27T10:12:53+08:00 ] 192.168.1.249 /index.php/Admin/Article/delete.html?art_id=160
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0044s ]
+SQL: DELETE FROM `blog_article` WHERE `art_id` = 160 [ RunTime:0.0026s ]
+
+[ 2016-07-27T10:13:48+08:00 ] 192.168.1.249 /index.php/Admin/Article/delete.html?art_id=164
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002689s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0057s ]
+SQL: DELETE FROM `blog_article` WHERE `art_id` = 164 [ RunTime:0.0027s ]
+
+[ 2016-07-27T10:15:18+08:00 ] 192.168.1.249 /index.php/Admin/Article/delete.html?art_id=159
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001993s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0074s ]
+SQL: DELETE FROM `blog_article` WHERE `art_id` = 159 [ RunTime:0.0030s ]
+
+[ 2016-07-27T10:23:06+08:00 ] 192.168.1.249 /index.php/Admin/Article/delete.html?art_id=157
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0088s ]
+SQL: DELETE FROM `blog_article` WHERE `art_id` = 157 [ RunTime:0.0017s ]
+
+[ 2016-07-27T10:23:45+08:00 ] 192.168.1.249 /index.php/Admin/Article/recover.html?art_id=156
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0232s ]
+SQL: UPDATE `blog_article` SET `is_delete`='1' WHERE `art_id` = 156 [ RunTime:0.0032s ]
+
+[ 2016-07-27T10:29:26+08:00 ] 192.168.1.249 /index.php/Admin/Article/recover.html?art_id=155
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0087s ]
+SQL: UPDATE `blog_article` SET `is_delete`='1' WHERE `art_id` = 155 [ RunTime:0.0044s ]
+
+[ 2016-07-27T10:31:57+08:00 ] 192.168.1.249 /index.php/Admin/Article/recover.html?art_id=153
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002970s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0081s ]
+SQL: UPDATE `blog_article` SET `is_delete`='1' WHERE `art_id` = 153 [ RunTime:0.0021s ]
+
+[ 2016-07-27T10:35:17+08:00 ] 192.168.1.249 /index.php/Admin/Article/delete.html?art_id=156
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0074s ]
+SQL: DELETE FROM `blog_article` WHERE `art_id` = 156 [ RunTime:0.0020s ]
+
+[ 2016-07-27T10:46:58+08:00 ] 192.168.1.244 /index.php/Admin/Index/design.html
+ERR: 非法操作:design
+
+[ 2016-07-27T11:18:58+08:00 ] ::1 /new_blog/index.php/Admin/Article/index.html
+ERR: SQLSTATE[HY000] [1049] Unknown database 'blog'
+
+[ 2016-07-27T18:41:49+08:00 ] ::1 /new_blog/index.php/Admin/Article/recover.html?art_id=169
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0035s ]
+SQL: UPDATE `blog_article` SET `is_delete`='1' WHERE `art_id` = 169 [ RunTime:0.0035s ]
+
+[ 2016-07-27T18:42:06+08:00 ] ::1 /new_blog/index.php/Admin/Article/delete.html?art_id=169
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0058s ]
+SQL: DELETE FROM `blog_article` WHERE `art_id` = 169 [ RunTime:0.0031s ]
+
+[ 2016-07-27T19:00:37+08:00 ] ::1 /new_blog/index.php/Admin/Article/recover.html?art_id=170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002256s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0059s ]
+SQL: UPDATE `blog_article` SET `is_delete`='1' WHERE `art_id` = 170 [ RunTime:0.0017s ]
+
+[ 2016-07-27T19:02:45+08:00 ] ::1 /new_blog/index.php/Admin/Article/recover.html?art_id=154
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0054s ]
+SQL: UPDATE `blog_article` SET `is_delete`='1' WHERE `art_id` = 154 [ RunTime:0.0014s ]
+

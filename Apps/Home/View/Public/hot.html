@@ -1,0 +1,8 @@
+<div class="clicks">
+<h2>热门点击</h2>
+<ol>
+<foreach name="hotArt" item="art">
+  <li><span><a href="{:U('Cat/index',array('cid'=>$art['cat_id']))}">{$art.cat_name}</a></span><a href="{:U('Article/show',array('aid'=>$art['art_id']))}">{$art.title}</a></li>
+</foreach>
+</ol>
+</div>

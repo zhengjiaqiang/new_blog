@@ -1,0 +1,15 @@
+[ 2016-07-16T10:16:30+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html?cat_id=&title=++
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.cat_id' in 'on clause'
+
+[ 2016-07-16T10:17:06+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.cat_id' in 'on clause'
+
+[ 2016-07-16T10:19:28+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.cat_id' in 'on clause'
+
+[ 2016-07-16T10:20:02+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.cat_id' in 'on clause'
+
+[ 2016-07-16T10:21:19+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.cat_id' in 'on clause'
+

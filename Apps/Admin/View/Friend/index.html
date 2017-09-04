@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理</title>
+    <base href="__PUBLIC__/Admin/">
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <script type="text/javascript" src="js/libs/modernizr.min.js"></script>
+</head>
+<body>
+<!-- 顶部导航 -->
+<include file="Public/top" />
+
+<div class="container clearfix">
+    <!-- 左侧菜单栏 -->
+    <include file="Public/menu" />
+    
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="{:U('Index/index')}">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">友链管理</span></div>
+        </div>
+
+        <div class="result-wrap">
+            <form name="myform" id="myform" method="post">
+                <div class="result-title">
+                    <div class="result-list">
+                        <a href="{:U('Friend/add')}"><i class="icon-font"></i>新增友链</a>
+                        <a id="batchDel" href="javascript:void(0)"><i class="icon-font"></i>批量删除</a>
+                        <a id="updateOrd" href="javascript:void(0)"><i class="icon-font"></i>更新排序</a>
+                    </div>
+                </div>
+                <div class="result-content">
+                    <table class="result-tab" width="100%">
+                        <tr>
+                            <th class="tc" width="5%"><input class="allChoose" name="" type="checkbox"></th>
+                            <th>排序</th>
+                            <th>ID</th>
+                            <th>LOGO</th>
+                            <th>友链名</th>
+                            <th>友链地址</th>
+                            <th>操作</th>
+                        </tr>
+                    <foreach name="linkList" item="val">
+                        <tr id="tr_{$val.link_id}">
+                            <td class="tc"><input name="id[]" value="59" type="checkbox"></td>
+                            <td>
+                                <input name="ids[]" value="59" type="hidden">
+                                <input class="common-input sort-input" name="ord[]" value="{$val.sort}" type="text">
+                            </td>
+                            <td>{$val.link_id}</td>
+                            <td>{$val.link_logo}</td>
+                            <td><a target="_blank" href="#" title="{$val.link_name}">{$val.link_name}</a>
+                            </td>
+
+                            <td>{$val.link_url}</td>
+                            <td>
+                                <a class="link-update" href="{:U('Friend/editor',array('lid'=>$val['link_id']))}">修改</a> | 
+                                <a class="link-del" onclick="catDelete({$val.cat_id})" href="javascript:void(0):">删除</a>
+                            </td>
+                        </tr>
+                    </foreach>
+                    </table>
+                    <div class="list-page"> {$show}</div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--/main-->
+</div>
+</body>
+<!-- <script src="js/jquery.1.12.min.js"></script> -->
+<script>
+    // $(function(){
+    //     $('.link-del').click(function(){
+    //         $(this).parents("tr").remove();
+    //     })
+    // })
+
+    function catDelete(aid)
+    {
+        var bool = window.confirm("您确认要删除吗？");
+        if(bool)
+        {
+            var xhr = new XMLHttpRequest();
+            var url = '__URL__/delete/aid/'+aid;
+            xhr.open('get',url);
+            xhr.send();
+            xhr.onreadystatechange = function()
+            {
+                if(xhr.status == 200 && xhr.readyState == 4)
+                {
+                    var result = xhr.responseText;
+                    if(result == 1)
+                    {
+                        document.getElementById("tr_"+aid).remove();
+                    }
+                    else if(result == 0)
+                    {
+                        alert('删除失败');
+                    }
+                    else
+                    {
+                        alert('该分类下有文章，请先转移文章再执行删除');
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</html>

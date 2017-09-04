@@ -1,0 +1,24 @@
+[ 2016-07-22T15:49:49+08:00 ] 192.168.1.69 /index.php/Admin/Artic/index
+ERR: 无法加载控制器:Artic
+
+[ 2016-07-22T15:52:36+08:00 ] 192.168.1.23 /index.php/Admin/Friend/editor/lid/30.html
+ERR: 非法操作:editor
+
+[ 2016-07-22T15:52:40+08:00 ] 192.168.1.23 /index.php/Admin/Friend/add.html
+ERR: 非法操作:add
+
+[ 2016-07-22T16:18:45+08:00 ] 192.168.1.26 /index.php/Admin/Index/index.php
+ERR: 非法操作:index.php
+
+[ 2016-07-22T16:19:40+08:00 ] 192.168.1.36 /index.php/Admin/is_login/index.html
+ERR: 无法加载控制器:Is_login
+
+[ 2016-07-22T16:39:34+08:00 ] 127.0.0.1 /index.php/Admin/Friend/add.html
+ERR: 非法操作:add
+
+[ 2016-07-22T16:39:41+08:00 ] 127.0.0.1 /index.php/Admin/Friend/add.html
+ERR: 非法操作:add
+
+[ 2016-07-22T16:39:49+08:00 ] 127.0.0.1 /index.php/Admin/Friend/add.html
+ERR: 非法操作:add
+

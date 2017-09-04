@@ -1,0 +1,9 @@
+<div class="tuijian">
+<h2>推荐文章</h2>
+<ol>
+<foreach name="recomList" item="art" key="key">
+  <li><span><strong>{$key+1}</strong></span><a href="{:U('Article/show',array('aid'=>$art['art_id']))}">{$art.title}</a>
+  </li>
+</foreach>
+</ol>
+</div>

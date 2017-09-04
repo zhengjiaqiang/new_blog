@@ -1,0 +1,15 @@
+[ 2016-07-19T16:25:25+08:00 ] 127.0.0.1 /index.php/Admin/Login/index.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tp_blog_com.blog_admin' doesn't exist
+
+[ 2016-07-19T16:26:54+08:00 ] 127.0.0.1 /index.php/Admin/Login/index.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tp_blog_com.blog_admin' doesn't exist
+
+[ 2016-07-19T16:28:32+08:00 ] 127.0.0.1 /index.php/Admin/Login/index.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tp_blog_com.blog_admin' doesn't exist
+
+[ 2016-07-19T16:29:37+08:00 ] 127.0.0.1 /index.php/Admin/Login/index.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tp_blog_com.blog_adminuser' doesn't exist
+
+[ 2016-07-19T16:31:12+08:00 ] 127.0.0.1 /index.php/Admin/Login/index.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tp_blog_com.blog_admin' doesn't exist
+

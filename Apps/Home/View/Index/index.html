@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{$config.website_title}</title>
+<base href="__PUBLIC__/Home/">
+<meta name="keywords" content="{$config.keywords}" />
+<meta name="description" content="{$config.website_desc}" />
+<link href="css/styles.css" rel="stylesheet">
+<link href="css/animation.css" rel="stylesheet">
+<!-- 返回顶部调用 begin -->
+<link href="css/lrtk.css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+<!-- 返回顶部调用 end-->
+<!--[if lt IE 9]>
+<script src="js/modernizr.js"></script>
+<![endif]-->
+</head>
+<body>
+<header>
+<!-- 导航 -->
+<include file="Public/nav" />
+</header>
+<!--header end-->
+<div id="mainbody">
+  <div class="info">
+    <figure> <img src="images/art.jpg"  alt="Panama Hat">
+      <figcaption><strong>渡人如渡己，渡已，亦是渡</strong> 当我们被误解时，会花很多时间去辩白。 但没有用，没人愿意听，大家习惯按自己的所闻、理解做出判别，每个人其实都很固执。与其努力且痛苦的试图扭转别人的评判，不如默默承受，给大家多一点时间和空间去了解。而我们省下辩解的功夫，去实现自身更久远的人生价值。其实，渡人如渡己，渡已，亦是渡人。</figcaption>
+    </figure>
+    <div class="card">
+      <h1>我的名片</h1>
+      <p>网名：{:C('NICKNAME')}</p>
+      <p>职业：{:C('JOB')}</p>
+      <p>电话：{:C('MOBILE')}</p>
+      <p>Email：{:C('EMAIL')}</p>
+      <ul class="linkmore">
+        <li><a href="/" class="talk" title="给我留言"></a></li>
+        <li><a href="/" class="address" title="联系地址"></a></li>
+        <li><a href="/" class="email" title="给我写信"></a></li>
+        <li><a href="/" class="photos" title="生活照片"></a></li>
+        <li><a href="/" class="heart" title="关注我"></a></li>
+      </ul>
+    </div>
+  </div>
+  <!--info end-->
+  <div class="blank"></div>
+  <div class="blogs">
+    <ul class="bloglist">
+    <foreach name="artList" item="art">
+      <li>
+        <div class="arrow_box">
+          <div class="ti"></div>
+          <!--三角形-->
+          <div class="ci"></div>
+          <!--圆形-->
+          <h2 class="title"><a href="{:U('Article/show',array('aid'=>$art['art_id']))}" target="_blank">{$art.title}</a></h2>
+          <ul class="textinfo">
+            <a href="/"><img src="images/s1.jpg"></a>
+            <p>{$art.short_desc}</p>
+          </ul>
+          <ul class="details">
+            <li class="likes"><a href="#">{$art.click_num}</a></li>
+            <li class="comments"><a href="#">34</a></li>
+            <li class="icon-time"><a href="#">{$art.add_time|date="Y/m/d H:i:s",###}</a></li>
+          </ul>
+        </div>
+        <!--arrow_box end--> 
+      </li>
+    </foreach>
+    </ul>
+    <!--bloglist end-->
+    <aside>
+      <!-- 推荐文章 -->
+      <include file="Public:recommend" />
+      <!--
+      <div class="toppic">
+        <h2>图文并茂</h2>
+        <ul>
+          <li><a href="/"><img src="images/k01.jpg">腐女不可怕，就怕腐女会画画！
+            <p>伤不起</p>
+            </a></li>
+          <li><a href="/"><img src="images/k02.jpg">问前任，你还爱我吗？无限戳中泪点~
+            <p>感兴趣</p>
+            </a></li>
+          <li><a href="/"><img src="images/k03.jpg">世上所谓幸福，就是一个笨蛋遇到一个傻瓜。
+            <p>喜欢</p>
+            </a></li>
+        </ul>
+      </div>
+      -->
+
+      <!-- 热门文章 -->
+      <include file="Public:hot" />
+
+      <div class="search">
+        <form class="searchform" method="get" action="#">
+          <input type="text" name="s" value="Search" onfocus="this.value=''" onblur="this.value='Search'">
+        </form>
+      </div>
+      <div class="viny">
+        <dl>
+          <dt class="art"><img src="images/artwork.png" alt="专辑"></dt>
+          <dd class="icon-song"><span></span>南方姑娘</dd>
+          <dd class="icon-artist"><span></span>歌手：赵雷</dd>
+          <dd class="icon-album"><span></span>所属专辑：《赵小雷》</dd>
+          <dd class="icon-like"><span></span><a href="/">喜欢</a></dd>
+          <dd class="music">
+            <audio src="images/nf.mp3" controls></audio>
+          </dd>
+          <!--也可以添加loop属性 音频加载到末尾时，会重新播放-->
+        </dl>
+      </div>
+    </aside>
+  </div>
+  <!--blogs end--> 
+</div>
+<!--mainbody end-->
+
+<!-- 底部 -->
+<include file="Public:footer" />
+
+<!-- jQuery仿腾讯回顶部和建议 代码开始 -->
+<div id="tbox"> <a id="togbook" href="/e/tool/gbook/?bid=1"></a> <a id="gotop" href="javascript:void(0)"></a> </div>
+<!-- 代码结束 -->
+</body>
+</html>
